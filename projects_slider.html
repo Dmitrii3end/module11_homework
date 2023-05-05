@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/project_slider.css">
+    <script defer src="/js/project_slider.js"></script>
+
+    <title>Projects_slider</title>
+</head>
+
+<body>
+    <div class="project-slider">
+        <div class="project-slider__container project-slider__container-image-bar">
+            <div class="project-slider__void"></div>
+            <div class="project-slider__image-bar">
+                <div class="image-bar__item image-bar__item_active">Rostov-on-Don, Admiral</div>
+                <div class="image-bar__item">Sochi Thieves</div>
+                <div class="image-bar__item">Rostov-on-Don Patriotic</div>
+            </div>
+        </div>
+
+        <div class="project-slider__container project-slider__container-info">
+            <div class="project-slider__info">
+                <div class="info-wrapper">
+                    <h2 class="info__header">
+                        <div class="info__header-text">Completed <br> projects</div>
+                        <div class="header-text__line"></div>
+                    </h2>
+
+                    <p class="info__main-description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</p>
+
+                    <div class="info__about-project">
+                        <div id="cityProject" class="info__some-info">
+                            <h4 class="some-info__header">City:</h4>
+                            <p class="some-info__text">Rostov-on-Don</p>
+                            <p class="some-info__text">LCD admiral</p>
+                        </div>
+                        <div class="info__some-info">
+                            <h4 class="some-info__header">apartment area:</h4>
+                            <p id="areaProject" class="some-info__text">81 m2</p>
+                        </div>
+                        <div class="info__some-info">
+                            <h4 class="some-info__header">Repair time:</h4>
+                            <p id="timeProject" class="some-info__text">3.5 months</p>
+                        </div>
+                        <div class="info__some-info">
+                            <h4 class="some-info__header">Repair Cost:</h4>
+                            <p id="costProject" class="some-info__text">Upon request</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="info__nav-slider">
+                    <button id="projectSliderButtonPrev" class="nav-slider__btn nav-slider__btn_prev"></button>
+
+                    <div class="nav-slider__dots">
+                        <div class="nav-slider__dot nav-slider__dot_active"></div>
+                        <div class="nav-slider__dot"></div>
+                        <div class="nav-slider__dot"></div>
+                    </div>
+
+                    <button id="projectSliderButtonNext" class="nav-slider__btn nav-slider__btn_next"></button>
+                </div>
+            </div>
+
+            <div class="project-slider__images">
+                <img id="imgProject" src="/imgs/rostov-on-don admiral.png" alt="project rostov on don admiral" class="project-slider__image">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
